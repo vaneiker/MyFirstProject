@@ -1,0 +1,71 @@
+# Compiled source code
+*.dll
+*.exe
+*.log
+*.sql
+*.sqlite
+*.pdb
+
+# Build directories
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.generated.cs
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+
+# NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code files
+.vscode/
+.vscode/*
+
+# Rider files
+.idea/
+.idea/*
+
+# Resharper files
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+.vs/*
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Functions local settings file
+local.settings.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# JetBrains Rider
+.idea/
