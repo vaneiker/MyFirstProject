@@ -1,0 +1,30 @@
+﻿@model Crud2Web.Models.Departamento.DepartamentoViewModel
+@{
+    ViewBag.Title = "VerDepartamento";
+
+}
+
+<h2>Ver Departamento</h2>
+
+@using (Html.BeginForm("Borrar", "Departamento", FormMethod.Post))
+{
+    <div class="container">
+        <br />
+        @Html.HiddenFor(model => model.id)
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Departamento, "Departamento")
+                    @Html.TextBoxFor(model => model.Departamento, new { @class = "form-control", @disabled = "disabled" })
+                </div>
+            </div> 
+        </div> 
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-danger">
+                    BORRAR
+                </button>
+            </div>
+        </div>
+    </div>
+}

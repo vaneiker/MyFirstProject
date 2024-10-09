@@ -1,0 +1,65 @@
+﻿@model Crud2Web.Models.Departamento.DepartamentoViewModel
+@{
+    ViewBag.Title = "DepartamentoMantenimiento";
+} 
+
+@using (Html.BeginForm("GuardarDepartamento", "Departamento", FormMethod.Post))
+{
+    <div class="container">
+        <br /> 
+        @Html.HiddenFor(model => model.id)
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Departamento, "Departamento")
+                    @Html.TextBoxFor(model => model.Departamento, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Ext, "Extensión")
+                    @Html.TextBoxFor(model => model.Ext, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Representante, "Representante")
+                    @Html.TextBoxFor(model => model.Representante, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Objetivo, "Objetivo")
+                    @Html.TextBoxFor(model => model.Objetivo, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NumeroEmpleados, "Número de Empleados")
+                    @Html.TextBoxFor(model => model.NumeroEmpleados, new { @class = "form-control", type = "number" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Presupuesto, "Presupuesto")
+                    @Html.TextBoxFor(model => model.Presupuesto, new { @class = "form-control", type = "number", step = "0.01" })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary">
+                    @ViewBag.mensajeBoton
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+

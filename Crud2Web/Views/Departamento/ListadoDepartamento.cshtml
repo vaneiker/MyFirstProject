@@ -1,0 +1,38 @@
+﻿@model List<Crud2Web.Models.Departamento.DepartamentoViewModel>
+@{
+    ViewBag.Title = "Listado Departamento";
+}
+
+ 
+
+<br />
+<div class="container">    
+    @Html.ActionLink("Nuevo", "DepartamentoMantenimiento", "Departamento", new { IdDepartamento = 0 }, new { @class = "btn btn-primary" })
+    <hr />
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Opcion</th>
+                <th>Departamento</th>
+                <th>Responsable</th>
+                <th>Objectivo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink("Ver", "VerDepartamento", "Departamento", new { IdDepartamento = i.id }, new { @class = "btn btn-success" })
+                        @Html.ActionLink("Editar", "DepartamentoMantenimiento", "Departamento", new { IdDepartamento = i.id }, new { @class = "btn btn-warning" })
+                        @Html.ActionLink("Borrar", "BorrarDepartamento", "Departamento", new { IdDepartamento = i.id }, new { @class = "btn btn-danger" })                        
+                    </td>
+                    <td>@i.Departamento</td>
+                    <td>@i.Representante</td>
+                    <td>@i.Objetivo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

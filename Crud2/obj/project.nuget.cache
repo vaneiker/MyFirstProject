@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i1o1JUP53Kz4CC8+hYfG/FXMaOdB2Ug5mHTB6acq3py0WA88eKQNdSLHllpWzy3/dwTAoQLYR5b6bWBf2FcNig==",
+  "success": true,
+  "projectFilePath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\Crud2\\Crud2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pveneiker\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

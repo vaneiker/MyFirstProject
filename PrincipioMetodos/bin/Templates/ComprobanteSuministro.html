@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page Design</title>
+   <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+        table.border th {
+            text-align:center;
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+        table.border td {
+            text-align:center;
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+       .tb {
+           border-collapse: collapse;
+       }
+
+           .tb th, .tb td {
+               padding: 5px;
+               border: solid 1px #777;
+           }
+
+           .tb th {
+               background-color: lightblue;
+           }
+    </style>
+
+</head>
+<body>
+    <h2>HOSPITAL COMUNITARIO TENOSIQUE</h2>
+    <table style="border-spacing: 0px;width:100%" cellpadding="3">
+        <tr>
+            <td>
+                <h3 style="margin-bottom:5px !important;margin-top:5px !important">COMPROBANTE DE SUMINISTRO</h3>
+            </td>
+            <td style="text-align:right;font-weight:bold" valign="top">
+                Nro. Operación:
+            </td>
+            <td valign="top">
+                {NumeroCorrelativo}
+            </td>
+            <td style="text-align:right;font-weight:bold" valign="top">
+                Fecha Procesado
+            </td>
+            <td valign="top">
+                {OrderDate}
+            </td>
+        </tr>
+    </table> 
+    <hr />
+    <p style="font-size:17px;font-weight:bold;margin:3px">Información del Pasiente</p>
+    <table style="border-spacing: 0px;font-size:12px;margin-top:6px !important" cellpadding="3">
+        <tr>
+            <td>Nombre Completo:</td>
+            <td>{Nombre}</td>
+            <td style="width:30px"></td> 
+        </tr>
+        <tr>
+            <td>Ciudad:</td>
+            <td>{City}</td>
+            <td style="width:30px"></td>
+            <td>Codigo Postal</td>
+            <td>{PostalCode}</td>
+            <td style="width:30px"></td>
+        </tr>
+        <tr>
+            <td>Telefono/Celular:</td>
+            <td>{Phone}</td>
+        </tr>
+        <tr>
+            <td>Empleado Atendio:</td>
+            <td>{Usuario}</td>
+        </tr>
+    </table>
+    <hr />
+    <p style="font-size:17px;font-weight:bold;margin:3px">Información de Suministro</p>
+    <table class="tb" style="border-spacing: 0px;font-size:12px;margin-top:6px !important" cellpadding="3">
+     <thead>
+         <tr>
+             <th>Codigo</th>
+             <th>Cantidad</th>
+             <th>Producto</th>
+             <th>Nivel de Atención</th>
+             <th>Tipo</th>
+             <th>Servicio</th>
+             <th>Nivel Atención Cliente</th>
+         </tr>
+     </thead>
+     <tbody>
+         {fill}
+     </tbody>
+    </table>
+    
+    <hr />
+    <p style="font-size:17px;font-weight:bold;margin:5px">Total Item</p>
+    <p style="font-size:12px;margin:5px">{totalItem}</p>
+</body>
+</html>
