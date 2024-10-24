@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj": {}
+    "c:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj": {}
   },
   "projects": {
-    "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj": {
+    "c:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj",
+        "projectUniqueName": "c:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj",
         "projectName": "PrincipioMetodos",
-        "projectPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj",
+        "projectPath": "c:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj",
         "packagesPath": "C:\\Users\\pveneiker\\.nuget\\packages\\",
-        "outputPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\obj\\",
+        "outputPath": "c:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,6 +32,11 @@
           "net472": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -42,20 +47,6 @@
               "version": "[6.2.0, )"
             }
           }
-        }
-      },
-      "runtimes": {
-        "win": {
-          "#import": []
-        },
-        "win-arm64": {
-          "#import": []
-        },
-        "win-x64": {
-          "#import": []
-        },
-        "win-x86": {
-          "#import": []
         }
       }
     }

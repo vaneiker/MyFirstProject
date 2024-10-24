@@ -27,6 +27,13 @@ namespace Crud2Web.Controllers
             return View();
         }
 
+        public PartialViewResult _ContactPartialView()
+        {
+            ViewBag.Message = "Soy un conctato";
+
+            return PartialView();
+        }
+
         public ActionResult Saludo(string nombre="")
         {
             ViewBag.SaludoPersonal = $"Hola soy {nombre} un saludo personalizado.";

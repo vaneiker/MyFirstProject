@@ -8,20 +8,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -49,61 +41,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/EntityFramework.props": {},
-          "buildTransitive/EntityFramework.targets": {}
-        }
-      },
-      "PrincipioMetodos/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "dependencies": {
-          "EntityFramework": "6.2.0"
-        },
-        "compile": {
-          "bin/placeholder/PrincipioMetodos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PrincipioMetodos.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-arm64": {
-      "EntityFramework/6.5.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -131,20 +74,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -172,20 +107,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -289,11 +216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\Crud2\\Crud2.csproj",
+      "projectUniqueName": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\Crud2\\Crud2.csproj",
       "projectName": "Crud2",
-      "projectPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\Crud2\\Crud2.csproj",
+      "projectPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\Crud2\\Crud2.csproj",
       "packagesPath": "C:\\Users\\pveneiker\\.nuget\\packages\\",
-      "outputPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\Crud2\\obj\\",
+      "outputPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\Crud2\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -313,8 +240,8 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj": {
-              "projectPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj"
+            "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj": {
+              "projectPath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj"
             }
           }
         }
@@ -332,9 +259,6 @@
     },
     "runtimes": {
       "win": {
-        "#import": []
-      },
-      "win-arm64": {
         "#import": []
       },
       "win-x64": {

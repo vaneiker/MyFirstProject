@@ -81,7 +81,6 @@ C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\bin\Antlr3.Runtime.pdb
 C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.csproj.AssemblyReference.cache
 C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.csproj.CoreCompileInputs.cache
-C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.csproj.CopyComplete
 C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.dll
 C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.pdb
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\Crud2Web\bin\Crud2Web.dll.config
@@ -170,3 +169,4 @@ C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\Crud2Web\obj\Debug\Cr
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.csproj.CopyComplete
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.dll
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.pdb
+C:\AppEiker\CursoProgramcion\MyFirstProject\Crud2Web\obj\Debug\Crud2Web.csproj.CopyComplete

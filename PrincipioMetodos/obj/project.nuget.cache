@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GtL8qdG59Mw/D+/OIHlnDL6s2p8aL4IkQ+tH9sB/ofGV/Zd6bUDdIrj1ie+TBgpXqnDDwUjBqFLXDePIAu52NQ==",
+  "dgSpecHash": "n6feIG6ZRLg=",
   "success": true,
-  "projectFilePath": "C:\\AppEiker\\CursoProgramcion\\MyFirstProject\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj",
+  "projectFilePath": "c:\\AppEiker\\CursoProgramcion\\MyFirstProject\\PrincipioMetodos\\PrincipioMetodos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pveneiker\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
   ],

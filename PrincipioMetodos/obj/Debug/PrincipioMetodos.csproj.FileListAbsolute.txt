@@ -7,7 +7,6 @@ C:\AppEiker\CursoProgramcion\MyFirstProject\PrincipioMetodos\obj\Debug\Principio
 C:\AppEiker\CursoProgramcion\MyFirstProject\PrincipioMetodos\obj\Debug\PrincipioMetodos.pdb
 C:\AppEiker\CursoProgramcion\MyFirstProject\PrincipioMetodos\bin\Debug\EntityFramework.SqlServer.dll
 C:\AppEiker\CursoProgramcion\MyFirstProject\PrincipioMetodos\bin\Debug\EntityFramework.dll
-C:\AppEiker\CursoProgramcion\MyFirstProject\PrincipioMetodos\obj\Debug\PrincipioMetodos.csproj.CopyComplete
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\bin\Debug\PrincipioMetodos.exe.config
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\bin\Debug\PrincipioMetodos.exe
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\bin\Debug\PrincipioMetodos.pdb
@@ -18,3 +17,4 @@ C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\obj\
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\obj\Debug\PrincipioMetodos.csproj.CopyComplete
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\obj\Debug\PrincipioMetodos.exe
 C:\AppEiker\CursoProgramcion\MyFirstProject\MyFirstProject\PrincipioMetodos\obj\Debug\PrincipioMetodos.pdb
+C:\AppEiker\CursoProgramcion\MyFirstProject\PrincipioMetodos\obj\Debug\Principi.02E7E3B0.Up2Date

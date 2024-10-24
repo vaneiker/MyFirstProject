@@ -1,12 +1,12 @@
 ﻿@model Crud2Web.Models.Departamento.DepartamentoViewModel
 @{
     ViewBag.Title = "DepartamentoMantenimiento";
-} 
+}
 
 @using (Html.BeginForm("GuardarDepartamento", "Departamento", FormMethod.Post))
 {
     <div class="container">
-        <br /> 
+        <br />
         @Html.HiddenFor(model => model.id)
         <div class="row">
             <div class="col-md-6">
@@ -54,7 +54,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary">
+                <button type="button" class="btn btn-primary" name="btnsubmit" id="btnsubmit" onclick="ValidateCampos()">
                     @ViewBag.mensajeBoton
                 </button>
             </div>
@@ -62,4 +62,72 @@
     </div>
 }
 
+<script>
+    $(document).ready(function () { 
+         
+    });
+
+
+    function ValidateCampos() { 
+        var $Departamento = $('#Departamento').val();
+        var $Ext = $('#Ext').val();
+        var $Representante = $('#Representante').val();
+        var $Objetivo = $('#Objetivo').val();
+        var $NumeroEmpleados = $('#NumeroEmpleados').val();
+        var $Presupuesto = $('#Presupuesto').val();
+
+
+        
+        if ($Departamento === '') { 
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                html: "Departamento no puede estar vacio.",                
+            });            
+            return false;
+        }
+        if ($Ext === '') { 
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                html: "Extención no puede estar vacio.",
+            });
+            return false;
+        }
+        if ($Representante === '') {            
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                html: "Representante no puede estar vacio.",
+            });
+            return false;
+        }
+        if ($Objetivo === '') { 
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                html: "Objetivo no puede estar vacio.",
+            });
+            return false;
+        }
+        if ($NumeroEmpleados === '') {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                html: "Numero de empleado no puede estar vacio.",
+            });
+            return false;
+        }
+        if ($Presupuesto === '') {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                html: "Presupuesto de empleado no puede estar vacio.",
+            });
+            return false;
+        } 
+        $('#btnsubmit').attr('type', 'submit');
+
+    }
+</script>
 
